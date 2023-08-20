@@ -1,0 +1,198 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.container.textcolor.entire-site{
+    z-index: 2000;
+}
+
+#intro-par{
+    color: #e7ecee; 
+}
+
+/* .cardcolor{
+    background-color: #e4561a;
+} */
+
+
+.navbarcolor{
+background-color: #fcda9f ;
+}
+
+.textcolor{
+    color:#e37c22 ;
+}
+
+.iconcolor{
+    color: transparent;
+    border-color: transparent;
+}
+
+#navbarNav .navbar-nav .nav-item .active{
+    color: #7b3d07;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #7b3d07;
+    transition: all .3s ease;
+  }
+
+#hi{
+    font-size: 300px;
+    color: #e7ecee;
+}
+
+.intro-box{
+    background-color: #e99d59;
+    
+}
+
+/* 
+ul{
+    list-style-type: circle;
+} */
+
+.fs-5{
+    font-weight: 500;
+}
+
+#githubicon{
+    height: 60px;
+    width: 60px;
+}
+
+footer{
+    background-color: #e99d59;
+    
+}
+
+footer img{
+    display: block;
+ 
+}
+
+.accordion-item .accordion-header button{
+    background-color: #e8b46f;
+    color: #e7ecee;
+}
+
+#collapseFive, #collapseFour, #collapseThree, #collapseTwo,
+#collapseOne {
+    color: #e7ecee;
+    background-color: #e6b77b;
+}
+
+/* styling{
+    text-align: center;
+    align-items: center;
+} */
+
+@media only screen and (max-width:576px) {
+
+    /* For small mobile screens*/
+    
+    .text-center.fw-bold{
+
+        font-size: 200px;
+        color: #e7ecee;
+    }
+    
+    #intro-par{
+        font-size: 30px !important;
+        color: #e7ecee;
+    }
+  
+
+ }
+
+ @media only screen and (min-width:768px) {
+
+    /* For medium mobile screens*/
+    
+    #hi{
+
+        font-size: 440px;
+        color: #e7ecee;
+    }
+
+    #intro-par{
+        font-size: 40px !important;
+        color: #e7ecee;
+    }
+
+ }
+
+ @media only screen and (min-width:992px) {
+
+    /* For medium mobile screens*/
+    
+    #hi{
+
+        font-size: 440px;
+        color: #e7ecee;
+    }
+
+    #intro-par{
+        font-size: 40px !important;
+        color: #e7ecee;
+    }
+
+    .landing-page-text{
+        font-size: 300px;
+    }
+
+    .navtextcenter{
+        text-align: center !important;
+    }
+
+    body{
+        background-color: #f7cc82;
+     }
+ 
+     #background-img{
+         background-image: url('portfolio-background-image.jpeg');
+         height: 200vh !important;
+         background-repeat: no-repeat;
+         background-position: center;
+     }
+
+ }
+
+
+
+ @media only screen and (min-width:1400px) {
+
+    /* For medium mobile screens*/
+    
+    #hi{
+
+        font-size: 440px;
+        color: #e7ecee;
+    }
+
+    #intro-par{
+        font-size: 40px !important;
+        color: #e7ecee;
+    }
+
+    .landing-page-text{
+        font-size: 300px;
+    }
+
+    .navtextcenter{
+        text-align: center !important;
+    }
+
+    body{
+       background-color: #f7cc82;
+    }
+
+    #background-img{
+        background-image: url('portfolio-background-image.jpeg');
+        height: 200vh !important;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+ }

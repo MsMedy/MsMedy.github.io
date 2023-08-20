@@ -1,0 +1,187 @@
+
+<!--
+    GOALS?
+    - demonstrate usage of bootstrap, html and CSS
+    - make site responsive 
+
+    shift option a to comment out multiple lines of code
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!---Bootstrap CDN and CSS stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="portfolio_page_stylesheet.css" >
+    
+    <!--Google Font Quicksand-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+    <div id="background-img" style="background-image: url('portfolio-background-image.jpeg'); height: 200vh;">       
+           
+    <nav class="navbar navbar-expand-lg p-0 m-0">
+        <div class="container-fluid navbarcolor">
+    
+            <button class="iconcolor navbar-toggler px-0 py-0 m-2 mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="iconcolor navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link active textcolor" aria-current="page" href="landing_page.html">HOME</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link textcolor" href="portfolio_page.html">PORTFOLIO</a>
+                    </li>
+                    <!-- <li class="nav-item mx-auto">
+                        <a class="nav-link textcolor" href="contact_page.html">CONTACT ME</a>
+                    </li> -->
+                    </ul>
+                </div>
+
+        </div>   
+            
+    </nav> <!--Nav bar-->
+
+
+    <div class="container textcolor entire-site"> <!--Div for the entire site-->
+
+  
+        <div class="card border-0 mt-5">
+            <div class="card-body text-center fs-3 fw-bold intro-box">
+                <p class=" card-title">
+                    Check out my completed projects below!
+                </p>
+                <p class="fs-5">
+                  Git Hub linked in footer
+                </p>
+        <div class="accordion fs-6 accordion-flush styling text-center" id="accordionExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Sushi Restaurant Site
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                        <img class="img-fluid"
+                            src="Sushi Site.png" alt="Sushi restaurant Site">
+                      <p class="fs-6 mt-3">
+                        This is a landing page for an imaginary sushi restaurant. 
+                      </p>
+                      <p>
+                        The site was built with Javascript, Bootstrap, HTML, and CSS. 
+                      </p>
+                      <a class="btn port-code" href="https://github.com/MsMedy/bootstrapsoloproject" role="button">View Code</a>
+                  </div>
+                </div>
+              </div>
+            <div class="accordion-item text-center">
+              <h2 class="accordion-header text-center">
+                <button class="accordion-button  text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    To-Do List
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img class="img-fluid" src="To Do List .png" alt="To Do List">
+                   <p class="fs-6 mt-3">
+                    This is a to-do list that allows users to add items, mark items as complete, and delete items.
+                   </p> 
+                   <p>
+                    This project was written in HTML, CSS, and Javascript.
+                   </p>
+                   <a class="btn port-code" href="https://github.com/MsMedy/homework-todolist2" role="button">View Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Library
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img class="img-fluid" src="Library App.png" alt="Library App">
+                    <p class="fs-6 mt-3">
+                        This project allows users to create books, check out books, return books, print out the current inventory of the library, print the library's contact information, and print out the library's hours of operation.
+                    </p>
+                    <p>
+                        This project is written in Java and demonstrates my understanding of Object Oriented Programming.
+                    </p>
+                    <a class="btn port-code" href="https://github.com/MsMedy/hmk-librarylab" role="button">View Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Fortune Teller
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img class="img-fluid" src="Fortune Teller.png" alt="Fortune Teller App">
+                    <p class="fs-6 mt-3">
+                        This is a program that allows users to determine if they have a lucky name. The program searches for a lowercase 'M' in the user's name. If a lowercase 'M' is present, the user is told they have a lucky name. If a lowercase 'M' is not present, the user is told that their name is not lucky.
+                    </p>
+                    <p>
+                        This program was written in HTML, CSS, and Javascript.
+                    </p>
+                    <a class="btn port-code" href="https://github.com/MsMedy/hmk-jscallback" role="button">View Code</a>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+        
+    </div> 
+    </div>
+    </div>
+
+    </div> <!--Site container -->
+
+</body>
+
+
+<footer class="pt-1 pb-1 fixed-bottom">
+    <div>
+        <a href="https://github.com/MsMedy"><img class="mx-auto" src="github-icon.jpeg" id="githubicon"></a>
+        
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</html>
+
+
+<!----
+
+- make the hi smaller/responsive via media queries
+
+- may have to make the background image responsive with media queries 
+
+- use a foldable accordian thing using bootstrap to make the text smaller
+
+-->
+

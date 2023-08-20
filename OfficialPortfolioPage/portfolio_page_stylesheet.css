@@ -1,0 +1,162 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.container.textcolor.entire-site{
+    z-index: 2000;
+}
+
+/* .cardcolor{
+    background-color: #e4561a;
+} */
+
+
+.navbarcolor{
+background-color: #fcda9f ;
+}
+
+.textcolor{
+    color:#e37c22 ;
+}
+
+.iconcolor{
+    color: transparent;
+    border-color: transparent;
+}
+
+#navbarNav .navbar-nav .nav-item .active{
+    color: #7b3d07;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #7b3d07;
+    transition: all .3s ease;
+  }
+
+.text-center.fw-bold{
+
+    font-size: 300px;
+    color: #e7ecee;
+}
+
+.intro-box{
+    background-color: #e99d59;
+    
+}
+
+/* 
+ul{
+    list-style-type: circle;
+} */
+
+.fs-5{
+    font-weight: 500;
+}
+
+#githubicon{
+    height: 60px;
+    width: 60px;
+}
+
+footer{
+    background-color: #e99d59;
+    
+}
+
+footer img{
+    display: block;
+ 
+}
+
+.accordion-item .accordion-header button{
+    background-color: #e8b46f;
+    color: #e7ecee;
+}
+
+a.port-code{
+    background-color: #e99d59;
+    border-color:  #e7ecee;
+    color: #e7ecee;
+}
+a.port-code:hover{
+    background-color: #e99d59;
+}
+
+#collapseFive, #collapseFour, #collapseThree, #collapseTwo,
+#collapseOne {
+    color: #e7ecee;
+    background-color: #e6b77b;
+}
+
+/* styling{
+    text-align: center;
+    align-items: center;
+} */
+
+@media only screen and (max-width:577px) {
+
+    /* For small mobile screens*/
+    
+    .text-center.fw-bold{
+
+        font-size: 200px;
+        color: #e7ecee;
+    }
+
+ }
+
+ @media only screen and (min-width:767px) {
+
+    /* For medium mobile screens*/
+    
+    p.card-title{
+        font-size: 44px;  
+    }
+
+   /*  .background-img{
+        height: 50vh !important; 
+    } */
+   
+ }
+
+
+ @media only screen and (min-width:992px) {
+
+    /* For medium mobile screens*/
+    
+   
+
+    body{
+        background-color: #f7cc82;
+     }
+ 
+     #background-img{
+         background-image: url('portfolio-background-image.jpeg');
+         height: 200vh !important;
+         background-repeat: no-repeat;
+         background-position: center;
+     }
+
+ }
+
+
+ @media only screen and (min-width:1400px) {
+
+    /* For medium mobile screens*/
+    
+   
+   
+
+    body{
+       background-color: rgb(255, 89, 0);
+    }
+
+    #background-img{
+        background-image: url('portfolio-background-image.jpeg');
+        height: 200vh !important;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+ }
